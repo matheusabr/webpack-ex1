@@ -1,5 +1,9 @@
+// commonJS
 const logger = require("./logger");
+// ES6
 import Person from "./person";
+// React
+import StatelessComp from "./reactfile";
 
 console.log("Hello World!");
 
@@ -27,3 +31,5 @@ const newProduct = cloneObj(product);
 newProduct.name = "JBL Charge 4";
 
 console.log("newProduct", newProduct);
+
+StatelessComp();
